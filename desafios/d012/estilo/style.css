@@ -5,10 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
  :root {
-     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-     --fonte2: font-family: 'Passion One', cursive; 
-     --fonte3:font-family: 'Sriracha', cursive; 
-
+     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+     --fonte2: 'Passion One', cursive; 
+     --fonte3:'Sriracha', cursive; 
  }
 * {
     margin: 0px;
@@ -18,7 +17,7 @@
 html, body {
     min-height: 100%vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
+    font-family:  var(--fonte1);
    
 }
 header {
@@ -30,36 +29,41 @@ header {
 header > h1 {
     padding: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte2);
+    font-family:var(--fonte2);
     font-size: 3em;
 }
-header >p {
+header > p {
     padding-bottom: 50px;
  }
-a{
+a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
-    font-family: var(--fonte3)
-   
+    padding-left: 30px;   
+       
+  }
+  section >p{
+    font-family: var(--fonte3);
+    font-size: 2em;
   }
   section.imagem > p {
       width: 400px;
       background-color: rgba(0, 0, 0, 0.178);
       
+      
   }
-section.normal{
+section.normal {
     background-color: white;
     color: black;
+   
 }
 section.imagem {
     background-color: rgb(29, 28, 28);
