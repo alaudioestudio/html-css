@@ -30,7 +30,7 @@ header > h1 {
     padding: 50px;
     font-variant: small-caps;
     font-family:var(--fonte2);
-    font-size: 3em;
+    font-size: 10vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -46,16 +46,19 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height:2em;
+    font-size: 3.5vw;
     padding-left: 30px;   
        
   }
-  section >p{
+  section > p {
     font-family: var(--fonte3);
-    font-size: 2em;
+   
   }
   section.imagem > p {
-      width: 400px;
+     display:inline-block;
+     padding: 5px;
+
       background-color: rgba(0, 0, 0, 0.178);
       
       
