@@ -18,8 +18,14 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(128, 128, 128, 0.664);
+        }
         thead, tfoot {
-            background-color: rgb(175, 175, 175);
+            background-color: rgb(14, 13, 13);
             color: white;
         }
         td.num {
@@ -29,8 +35,7 @@ text-align:right ;
     </style>
 </head>
 <body>
-    <CAption>População das Unidasdes Federativas</CAption>
-    <h1>Uso de tabelas grandes</h1>
+       <h1>Uso de tabelas grandes</h1>
     <!-- ANATOMIA PARA TABELAS GRANDES
         CAPTION
          TABLE
@@ -42,6 +47,7 @@ text-align:right ;
                   TR, TD, TH   
     -->
     <table>
+        <caption>População das Unidasdes Federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
@@ -51,11 +57,11 @@ text-align:right ;
         </thead>
             <tbody>
                 <tr>
-                    <td>São Paulo</td>
+                    <td scope="col">São Paulo</td>
                     <td class="num">41 262 199</td>
                 </tr>
                 <tr>
-                    <td>Minas Gerais</td>
+                    <td scope="col">Minas Gerais</td>
                     <td class="num">21 411 923</td>
                 </tr>
                 <tr>
