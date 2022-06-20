@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(3, 3, 3);;
+            
+
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(128, 128, 128, 0.664);
+        }
+        thead, tfoot {
+            background-color: rgb(14, 13, 13);
+            color: white;
+        }
+        thead >tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+        td.num {
+text-align:right ;
+        }
+        tbody > tr:nth-child(odd) /* 2n-1*/{
+            background-color: rgb(139, 131, 131);
+            color: white;
+        }
+        tbody > tr:nth-child(even) /* 2n*/ {
+            background-color:rgb(223, 233, 223);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Unidasdes Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:50px;">População</th>
+               
+            </tr>          
+        </thead>
+            <tbody>
+                <tr>
+                    <th scope="col">São Paulo</th>
+                    <td class="num">41 262 199</td>
+                </tr>
+                <tr>
+                    <th scope="col">Minas Gerais</th>
+                    <td class="num">21 411 923</td>
+                </tr>
+                <tr>
+                    <th scope="col">Rio de Janeiro</th>
+                    <td class="num">17 463 349</td>
+                </tr> <tr>
+                    <th scope="col"> Bahia</th>
+                    <td class="num">14 016 906</td>
+                </tr>
+                 <tr>
+                    <th scope="col">Paraná</th>
+                    <td class="num">10 444 526</td>
+                </tr>
+                <tr>
+                    <th scope="col">Rio Grande do Sul</th>
+                    <td class="num">10 693 929</td>
+                </tr>
+                <tr>
+                    <th scope="col">Pernambuco</th>
+                    <td class="num">8 796 448</td>
+                </tr>
+                <tr>
+                    <th scope="col">  Pará</th>
+                    <td class="num">8 452 381</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Ceará</th>
+                    <td class="num">8 452 381</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Ceará</th>
+                    <td class="num">7 581 051</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Santa Catarina</th>
+                    <td class="num">6 248 436</td>
+                </tr>
+                <tr>
+                    <th scope="col">  Goiás</th>
+                    <td class="num">6 003 788</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Ceará</th>
+                    <td class="num">8 452 381</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Maranhão</th>
+                    <td class="num">6 574 789</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Amasonas </th>
+                    <td class="num">3 483 985</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Espírito Santo</th>
+                    <td class="num">3 514 952</td>
+                </tr>
+                <tr>
+                    <th scope="col">Paraíba</th>
+                    <td class="num">3 766 528</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Mato Grosso</th>
+                    <td class="num">3 035 122</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Rio Grande do Norte</th>
+                    <td class="num">3 168 027</td>
+                </tr>
+                <tr>
+                    <th scope="col">Alagoas</th>
+                    <td class="num">3 120 494</td>
+                </tr>
+                <tr>
+                    <th scope="col">Piauí</th>
+                    <td class="num">3 118 360</td>
+                </tr>
+                <tr>
+                    <th scope="col">Distrito Federal</th>
+                    <td class="num">2 570 160</td>
+                </tr>
+                <tr>
+                    <th scope="col">Mato Grosso do Sul</th>
+                    <td class="num">2 449 024</td>
+                </tr>
+                <tr>
+                    <th scope="col"> Sergipe</th>
+                    <td class="num">2 068 017</td>
+                </tr>
+                <tr>
+                    <th scope="col">Rondônia</th>
+                    <td class="num">1 562 409</td>
+                </tr>
+
+                <tr>
+                    <th scope="col">Tocantins</th>
+                    <td class="num">1 383 445</td>
+                </tr> <tr>
+                    <th scope="col">Acre</th>
+                    <td class="num">733 559</td>
+                </tr>
+                <tr>
+                    <th scope="col">Amapá</th>
+                    <td class="num">669 526</td>
+                </tr>
+                <tr>
+                    <th scope="col">Roraima</th>
+                    <td class="num">450 479</td>
+                </tr>
+               
+            </tbody>
+        <tfoot>
+                <tr>
+                   <th scope="row">Total de habitantes</th>
+                 <td class="num"><strong>210.147.125</strong></td>
+                </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
